@@ -1,1 +1,443 @@
+/*  MIT License                                                                   */
+
+/* Copyright (c) [2026] [David Livingston aka Durangod]                           */
+
+/* Permission is hereby granted, free of charge, to any person obtaining a copy   */
+/* of this software and associated documentation files (the "Software"), to deal  */
+/* in the Software without restriction, including without limitation the rights   */
+/* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell      */
+/* copies of the Software, and to permit persons to whom the Software is          */
+/* furnished to do so, subject to the following conditions:                       */
+
+/* The above copyright notice and this permission notice shall be included in all */
+/* copies or substantial portions of the Software.                                */
+
+/* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR     */
+/* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,       */
+/* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE    */
+/* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER         */
+/* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  */
+/* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  */
+/* SOFTWARE.                                                                      */
+
+
+/* OWA Open Web Analytics CUSTOM Dark Chocolate Theme (dark_chocolate) theme by David Livingston (aka durangodave)
+/* this file is a custom theme derived from OWA css files, this file relates to owa.reporting-css-combined.css ONLY */
+/* all css in this file will override the same original css code in owa.reporting-css-combined.css ONLY */ 
+/* remember just the changes are posted here not the whole css from the original file */
+/* at this time we do not have custom icons for themes */
+
+/* if you need assistance you can reach me at csdurangodaves at outlook dot com */
+/* please be specific (example: OWA dark chocolate theme) with your request as i have many other projects */
+
+/* version 1.0 released 11-19-2026 */
+
+
+.owa_siteControlSummary {
+    background-color: #352a2a; 
+    border: 1px solid #352a2a;   
+    border-left: 5px solid #352a2a; 
+}
+
+.owa_siteControlSummary:hover,
+.owa_siteControlSummary:focus {
+    border-color: #352a2a; 
+    border-left-color: #352a2a2; 
+}
+
+.owa_siteControlOrg {
+    color: #ffffff; 
+}
+
+.owa_siteControlProperty {
+    color: #ffffff;  
+}
+
+.owa_siteControlProfile {
+    color: #ffffff;  
+}
+
+
+.owa_siteControlColumnHead,
+.owa_siteControlItem {
+    border-bottom: #736464;
+}
+
+.owa_siteControlSelect a{
+    color: #000000;
+}
+
+
+.owa_siteControlId {
+    color: #efb10d;
+    font-size: 1.2em;
+}
+
+
+li.owa_siteControlItem {
+    background-color: #736464;
+}
+
+/* side nav text links */
+
+.owa_siteControlItem,
+.owa_siteControlDomain,
+.owa_siteControlItemName,
+.owa_reportLeftNavColumn a {
+    color: #ffffff;
+}
+
+/* no grey background color on this one or the edit link will hide away */
+.owa_siteControlEdit,
+.owa_siteControlEdit a:hover,
+.owa_siteControlEdit a:focus{
+    color: #000000;
+    visibility: visible;
+    padding: 3px;
+    background-color: #9f9a9a;
+}
+
+.owa_siteControlItem:hover {
+    color: #000000;
+    visibility: visible;
+    background-color: #736464;
+}
+
+.owa_siteControlSelect:hover,
+.owa_siteControlDomain:hover,
+.owa_siteControlItemName:hover{
+    color: #000000;
+    visibility: visible;
+    background-color: #736464;
+}
+
+.owa_siteControlPanel,
+.owa_siteControlItem.is-selected,
+.owa_siteControlColumnHead {
+    background-color: #736464;
+    color: #000000;
+    border-left-color: #000000;
+    visibility: visible;
+    font-size: 0.85em;
+}
+
+.owa_hierarchyNavHead {
+    color: #e2d2d2;  
+}
+
+.owa_hierarchyContent .panel_headline {    
+    color: #e2d2d2;   
+}
+
+.owa_hierarchyNav li.is-current a {
+    color: #fff8f8; 
+}
+
+.owa_hierarchyContent #panel {
+    background-color: #bf9393;  
+}
+
+.owa_hierarchyContent #panel table.management th{
+    background-color: #3d3333;
+    color: #ffffff;
+}
+
+.owa_hierarchyContent #panel table.management td{
+    color: #ffffff;
+}
+
+.owa_hierarchyContent #panel input[type="text"], 
+.owa_hierarchyContent #panel input[type="password"],
+.owa_hierarchyContent #panel input[type="email"]{
+    border: none; /* disable border so we can bring it back on focus */
+}
+
+.owa_hierarchyContent #panel input[type="text"],
+.owa_hierarchyContent #panel input[type="password"],
+.owa_hierarchyContent #panel input[type="email"],
+textarea {
+    background-color: #c9afaf;
+    color: #000000;
+    padding: 5px;
+    max-width: 90%;
+}
+
+.owa_hierarchyContent #panel input[type="text"]:focus,
+.owa_hierarchyContent #panel input[type="password"]:focus,
+textarea:focus {
+    border: 1px solid #000000;
+}
+
+.owa_hierarchyContent #panel .owa_panelIntro {
+    color: #131212;  
+    font-size: 1em;  
+}
+
+.owa_hierarchyContent #panel .setting .description {
+    color: #131212; 
+    font-size: 1em;
+}
+
+.owa a {
+    color: #c81856;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.owa a:hover {
+    color: #800530;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+/* we have to isolate the top menu anchors because the nav links */
+/* currently use .owa a globally so we must isolate the top menu nav links */
+
+.owa_admin_nav_subgroup_item a,
+.owa_admin_nav_topmenu_item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.owa_admin_nav_subgroup_item a:hover,
+.owa_admin_nav_topmenu_item a:hover {
+    color: #c6b1b1;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.owa_hierarchyContent #panel .form-instructions {
+    color: #ffffff;
+}
+
+.owa_hierarchyCrumb {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.owa_hierarchyNav li a{
+    color: #938181;
+}
+
+.owa_hierarchyNav li a:hover{
+    color: #cdb0b0;
+}
+
+.owa_passwordFields input[type="password"]:focus{
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.owa_passwordFields input[type="password"]::placeholder {
+    color: #000000;
+}
+
+.owa-button {    
+    background-color:  #32250f; 
+    border: 1px solid #32250f;
+}
+
+.owa-button:hover {   
+    color: #cdd6dc; 
+    border: 1px solid #32250f;
+}
+
+#owa_header {
+    border-bottom: 1px solid #3d3333;  
+    background-color: #3d3333;  
+}
+
+.noedit {
+         color: #131212;   
+}
+
+.owa .notice {
+    background-color: #71ad2b; 
+    border-color: #519600;  
+}
+
+.owa .owa_helpMenuToggle,
+.owa .owa_notificationToggle,
+.owa .owa_userMenuToggle,
+.owa_navigation li a {
+    color: #000000;
+    background-color: #7d702c;
+}
+
+.owa .owa_helpMenuToggle:hover,
+.owa .owa_notificationToggle:hover,
+.owa .owa_userMenuToggle:hover,
+.owa_navigation li a:hover {
+    color: #000000;
+    background-color: #c6ae2f;
+}
+
+/*  NOT CURRENT  */
+
+.owa_nav_icon {
+    color: #ffffff;
+}
+
+.fa-caret-right,
+.fa-caret-down {
+    color: #ffffff;
+}
+
+/* CURRENT */
+
+.owa_current{
+	background-color: #1a1919; 
+}
+
+.owa table.management td {
+    background-color: #3d3333;
+}
+
+.owa_largeFormField {
+    padding: 5px;
+    background-color: #c9afaf;
+}
+
+.reportSectionContainer {
+    background-color: #bf9393;
+}
+
+.owa_reportSectionContent {
+    padding: 0px 7px 7px 5px;
+    background-color: #bf9393;
+}
+
+.owa_reportPeriodLabelText {
+    color: #000000;
+}
+
+.owa_reportSectionHeader,
+.section_header {
+    border: none;
+}
+
+.owa .submit-button {
+    background-color: #32250f;
+    color: #ffffff;
+}
+
+.submit-button:hover {
+    color: #9f9d9a;
+}
+
+.ui-button:active,
+.owa .autoRefreshControl .buttons .ui-button.ui-state-active
+{
+    background: #32250f;
+    color: #ffffff;
+    border: 1px solid #32250f;
+}
+
+.owa .autoRefreshControl .buttons .ui-button.ui-state-active:hover,
+.owa .autoRefreshControl .buttons .ui-button.ui-state-active:focus
+{
+    background: #48371a;
+    border: 1px solid #32250f;
+}
+
+.owa .ui-tabs .ui-tabs-nav li.ui-tabs-active,
+.owa .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-active {
+    border-color: #32250f;
+    background: #32250f;
+    color: #ffffff;
+    border: 1px solid;
+}
+
+.owa .ui-tabs .ui-tabs-nav li.ui-tabs-active:hover,
+.owa .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-active:focus {
+    background: #48371a;
+}
+
+#report-tabs {
+    background-color: #bf9393;
+}
+
+.owa_areaChart {
+    margin: 5px;
+}
+
+.owa_reportHeadline {
+    font-size: 1.2em;
+}
+
+.owa .owa_reportGridItem.owa_widget-grid-card,
+.owa .owa_reportGridItem.owa_widget-trend-card,
+.owa .owa_reportGridItem.owa_widget-pie {
+    background-color: #bf9393;
+    border: 1px solid #000000;
+}
+
+.owa .owa_reportGridItem.owa_widget-grid {
+    background-color: #bf9393;
+    padding: 16px 8px;
+    border: 1px solid #bf9393;
+}
+
+.owa .owa_widgetBody {
+    background-color: #bf9393;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+   border: 1px solid #f0c18c;
+   background: #f0c18c;
+   color: #000000;
+}
+
+.owa .owa_notificationPanelHeader {
+    background: #352a2a;
+    color: #ffffff;
+}
+
+#owa_notificationItems .info_text,
+.owa .owa_notificationExcerpt,
+.owa .owa_notificationWhen {
+    color: #000000;
+}
+
+.owa .owa_notificationItems,
+.owa .owa_notification,
+.owa .owa_notificationMain {
+    background-color: #bf9393;
+}
+
+.owa .owa_notification:hover {
+    background-color: #bf9393;
+}
+
+.layout_subview{
+    font-size: 13px;
+}
+
+#panel p {
+    width: 90%;
+}
+
+.owa_dangerZoneBody {
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.owa-button.owa-button-danger {
+    background-color: #99321f;
+    border-color: #99321f;
+    color: #ffffff;
+}
+
+.owa-button.owa-button-danger:hover {
+    color: #d7c2c2;
+}
+
+.owa_emptyState p {
+    color: #000000;
+}
+
 
