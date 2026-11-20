@@ -53,9 +53,9 @@ Here is a visual example using the OWA 1.14.9 version header
 `<?php endforeach; ?>`
 `<?php endif;?>`
 
-"notice above that the default OWA css files load, below that section is where you want to copy our theme code below"
-"in the example below i have my OWA installed in example.com/analytics/owa_analytics/"
-"to keep the custom theme folders safe from updates or deletion (see text above) i install the custom theme in
+notice above that the default OWA css files load, below that section is where you want to copy our theme code below
+in the example below i have my OWA installed in example.com/analytics/owa_analytics/
+to keep the custom theme folders safe from updates or deletion (see text above) i install the custom theme in
 example.com/analytics/custom_css/dark_chocolate which is one level above OWA (a good place for it)
 
 `<!-- OWA dark_chocolate custom theme by david livingston -->`
