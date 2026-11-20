@@ -22,12 +22,11 @@
 
 
  OWA Open Web Analytics CUSTOM Dark Chocolate Theme (dark_chocolate) theme by David Livingston (aka durangodave)
- This is a custom theme derived from OWA css files */ 
- remember just the changes are posted here not the whole css from the original file */
- at this time we do not have custom icons for themes */
-
- if you need assistance you can reach me at csdurangodaves at outlook dot com */
- please be specific (example: OWA dark chocolate theme) with your request as i have many other projects */
+ This is a custom theme derived from OWA css files. Remember! Just the changes are posted here not the whole css from the original file 
+ at this time we do not have custom icons for themes 
+ 
+ if you need assistance you can reach me at csdurangodaves at outlook dot com
+ please be specific (example: OWA dark chocolate theme) with your request as i have many other projects 
 
  version 1.0 released 11-19-2026 
 
