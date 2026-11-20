@@ -46,8 +46,11 @@ IMPORTANT!!  code must be copied to a specific place in the head section.  It mu
 Here is a visual example using the OWA 1.14.9 version header 
 
 `<?php /** @var \OWA\Core\ViewScope $view */ ?>`
+
 `<!-- HEAD Elements -->`
+
 `<?php if(!empty($view->css)): ?>`
+
 `<?php foreach ($view->css as $cssfile): ?>`
 `<LINK REL=StyleSheet HREF="<?php echo $cssfile['url'];?>" TYPE="text/css">`
 `<?php endforeach; ?>`
