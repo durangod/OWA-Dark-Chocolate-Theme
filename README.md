@@ -20,22 +20,16 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
  SOFTWARE.                                                                     
 
+About:
+OWA Open Web Analytics CUSTOM Dark Chocolate Theme (dark_chocolate) theme by David Livingston (aka durangodave)
+This is a custom theme derived from OWA css files. Remember! Just the changes are posted here not the whole css from the original file 
+at this time we do not have custom icons for themes.
 
- OWA Open Web Analytics CUSTOM Dark Chocolate Theme (dark_chocolate) theme by David Livingston (aka durangodave)
- This is a custom theme derived from OWA css files. Remember! Just the changes are posted here not the whole css from the original file 
- at this time we do not have custom icons for themes 
  
- if you need assistance you can reach me at csdurangodaves at outlook dot com
- please be specific (example: OWA dark chocolate theme) with your request as i have many other projects 
-
- version 1.0 released 11-19-2026 
-
-Dave :)
-
 # OWA-Dark-Chocolate-Theme
 This is a custom dark version theme for OWA (Open Web Analytics). Dark and light browns, other misc colors as needed for links and necessities.  It is css mods only at this time.  We do not have custom icons at this time.  If you suffer from eye burn looking at white pages of the default OWA theme, then this dark version is a good option.
 
-
+Installation: 
 To install this theme you simple upload the theme folder and contents to your domain where you want the folder to exist.  I recommend that you place this theme folder one level up from your OWA software install.  This will prevent the theme folders from being over written or destroyed during a OWA update or install.  
 
 Once you have the folder where you want it then go to your OWA domain location and go to 
