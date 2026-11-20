@@ -52,8 +52,11 @@ Here is a visual example using the OWA 1.14.9 version header
 `<?php if(!empty($view->css)): ?>`
 
 `<?php foreach ($view->css as $cssfile): ?>`
+
 `<LINK REL=StyleSheet HREF="<?php echo $cssfile['url'];?>" TYPE="text/css">`
+
 `<?php endforeach; ?>`
+
 `<?php endif;?>`
 
 notice above that the default OWA css files load, below that section is where you want to copy our theme code below
@@ -62,14 +65,23 @@ to keep the custom theme folders safe from updates or deletion (see text above) 
 example.com/analytics/custom_css/dark_chocolate which is one level above OWA (a good place for it)
 
 `<!-- OWA dark_chocolate custom theme by david livingston -->`
+
 `<!-- mod by dave  -->` 
+
 `<!-- loading custom css files -->`
+
 `<!-- this must remain here AFTER the OWA core css files are loaded -->`
+
 `<link rel="stylesheet" href="https://example.com/analytics/custom_css/dark_chocolate/owa_custom.css" media="screen, projection, tv">`
+
 `<link rel="stylesheet" href="https://example.com/analytics/custom_css/dark_chocolate/owa_reporting_css_combined_custom.css" media="screen, projection, tv">`
+
 `<link rel="stylesheet" href="https://example.com/analytics/custom_css/dark_chocolate/owa_report_custom.css" media="screen, projection, tv">`
+
 `<!-- EMD mod by dave  --> `
+
 `<!-- end OWA dark-chocolate custom theme code -->`
+
 
 Then refresh your OWA site (you may have to press ctrl-F5 on windows to get a fresh site copy from the server).  
 
